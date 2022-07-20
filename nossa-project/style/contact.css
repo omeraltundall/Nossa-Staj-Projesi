@@ -1,0 +1,54 @@
+.contact-page{
+    margin-left: 280px;
+    margin-top: 50px;
+}
+.contact-type{
+    margin-top: 2rem;
+    float: left;
+    margin-right: 150px;
+}
+.contact-type p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.contact-forms{
+    clear: both;
+    float: left;
+    margin-top: 200px;
+}
+form input{
+    margin-right: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+form textarea{
+    border-radius: 5px;
+}
+.name, .surname, #email, #tel-no{
+    height: 2rem;
+    border-radius: 5px;
+}
+form p{
+    margin-bottom: 0.5rem;
+}
+#submit-btn{
+    width: 610px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0 ,0.7);
+    color: white;
+}
+.about-places{
+    margin-top: 390px;
+    margin-left: 700px;
+}
+.place-maps{
+    clear: both;
+    width: 100%;
+}
+.place-maps th{
+    height: 60px;
+}
+iframe{
+    width: 100%;
+}
