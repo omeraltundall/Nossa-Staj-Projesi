@@ -1,0 +1,81 @@
+.top-img{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url("/img/profile-top-image.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.top-img-content{
+    color: white;
+    font-weight: bolder;
+}
+.profile-contents{
+    font-size: 18px;
+}
+.moving-img{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url("/img/harran5-1.jpg");
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center; /* adjust flex item horizontally */
+    align-items: center; /* adjust flex item y axis */
+    text-align: center; /* adjust text item */
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.moving-img .moving-img-sm-text{
+    display: flex;
+    text-align: center;
+    position: absolute;
+    margin-top: 90px;
+}
+.company-members{
+    font-size: 18px;
+}
+.member-img{
+    width: 200px;
+    height: 250px;
+    border-radius: 120px;
+}
+.member-name{
+    font-size: 20px;
+}
+.bottom-img{
+    width: 100vh;
+}
+.last-part-profile{
+    background: rgb(236, 236, 236);
+    margin-left: -5px;
+}
+
+@media screen and (max-width:600px) {
+    .content-img{
+        width: 100vw;
+    }
+    .member-img{
+        width: 140px;
+        height: 180px;
+    }
+    .bottom-img{
+        width: 90vw;
+        height: 250px;
+    }
+    .last-part-profile{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:900px){
+    .bottom-img{
+        width: 90vw;
+        height: 290px;
+    }
+    *{
+        font-size: 13px;
+    }
+}

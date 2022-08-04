@@ -1,0 +1,11 @@
+.owl-theme .owl-dots .owl-dot span{
+    width: 25px;
+    height: 8px;
+}
+.owl-theme .owl-dots .owl-dot span:active{
+    background: black;
+}
+.owl-top-content .item img{
+    height: 650px;
+}
+    

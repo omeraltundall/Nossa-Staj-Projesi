@@ -1,0 +1,51 @@
+.link-area{
+    font-size: 12px;
+}
+.collection-link, .home-link , .collection-link:visited, .home-link:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.collection-link:hover, .home-link:hover{
+    color: black;
+    text-decoration: underline;
+}
+.main-img{
+    width: 425px;
+    height: 250px;
+    opacity: 1;
+    transition: 1s;
+}
+.hover-img{
+    width: 420px;
+    height: 248px;
+    opacity: 1;
+    position: relative;
+    margin-top: -280px;
+    opacity: 0;
+    transition: 1s;
+}
+.main-img:hover{
+    opacity: 0;
+}
+.hover-img:hover{
+    opacity: 1;
+}
+.normal-img{
+    width: 425px;
+    height: 250px;
+}
+.koltuklar-content a{
+    text-decoration: none;
+    color: black;
+}
+.koltuklar-content a:hover{
+    color: black;
+}
+.koltuklar-content a:visited{
+    color: black;
+}
+.koltuklar-content button{
+    border: none;
+    background-color: transparent;
+}

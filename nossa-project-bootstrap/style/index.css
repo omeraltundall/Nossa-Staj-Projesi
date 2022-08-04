@@ -1,0 +1,192 @@
+*{
+    font-family: 'Playfair Display', serif;
+    --dark-grey:rgb(37, 37, 37);
+    font-size: 12px;
+}
+.main-logo{
+    width: 200px;
+}
+.main-header{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+.bottom-header{
+    height: 20px;
+    background-color: transparent;
+    position: fixed;
+}
+.main-header-button{
+    background: transparent;
+    border: none;
+}
+.fa-magnifying-glass, .fa-globe , .fa-share-nodes{
+    color: white;
+}
+#profil,#blog,#contact,#references,#navbarDropdown{
+    color: white;
+}
+.dropdown-item-text{
+    font-size: 16px;
+}
+.main-logo{
+    width: 13em;
+}
+.navbar ul li a{
+    font-size: 1.50em;
+}
+.collection-menu{
+    font-size: 12px;
+}
+.owl-intro .item img{
+    height: 100vh;
+    width: 100vw;
+}
+
+.footer input{
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
+}
+.top-footer{
+    height: 20px;
+    background: var(--dark-grey);
+}
+.footer{
+    background: var(--dark-grey);
+    color: white;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer img{
+    width: 320px;
+}
+.footer .fa-square-facebook, .footer .fa-twitter, .footer .fa-instagram, .footer .fa-youtube{
+    color: white;
+}
+.footer .fa-square-facebook:visited, .footer .fa-twitter:visited, .footer .fa-instagram:visited, .footer .fa-youtube:visited{
+    color: white;
+}
+
+.footer input[type=email]{
+    width: 300px;
+    height: 35px;
+    border-radius: 2px;
+}
+.footer input[type=submit]{
+    width: 70px;
+    text-align: center;
+    display: flex;
+    height: 35px;
+    margin-top: -35px;
+    margin-left: 300px;
+    border-radius: 2px;
+}
+.footer span a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.footer span a:hover{
+    text-decoration: underline;
+}
+.bottom-footer{
+    background: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.5);
+}
+.flower-aydınlatma-aksesuar p{
+    font-size: 15px;
+}
+.flower-aydınlatma-aksesuar button{
+    font-size: 15px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.flower-aydınlatma-aksesuar button:hover{
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+.nossa-mobilya p{
+    font-size: 18px;
+}
+.nofis p{
+    font-size: 18px;
+}
+    
+.background-area{
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(0 0 0 / 65%), rgb(0 0 0 / 50%)), url(https://nossamobilya.com.tr/wp-content/uploads/2022/02/nossaslide1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    height: 400px;
+}
+.background-area button{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    border-radius: 4px;
+}
+ 
+.background-area button:hover{
+    background-color: white;
+    color: rgb(56, 56, 56);
+    font-weight: 400;
+}
+
+@media screen and (max-width:600px) {
+    .owl-intro .item img{
+        height: 35vh;
+    }
+    .nossa-mobilya img{
+        width: 100vw;
+    }
+    .nofis-koltuk-img{
+        width: 100vw;
+    }
+    .nofis-logo{
+        width: 30vw;
+    }
+    .background-area{
+        height: 600px;
+    }
+}
+@media screen and (max-width:900px) {
+    .owl-intro .item img{
+        height: 50vh;
+    }
+    .nossa-mobilya img{
+        width: 50vw;
+    }
+    .nofis-koltuk-img{
+        width: 50vw;
+    }
+    .flower-aydınlatma-aksesuar img{
+        width: 30vw;
+    }
+    .footer img{
+        width: 160px;
+    }
+    .footer input[type=email]{
+    width: 200px;
+    height: 35px;
+    border-radius: 2px;
+    }
+.footer input[type=submit]{
+    width: 50px;
+    text-align: center;
+    display: flex;
+    height: 35px;
+    margin-top: -35px;
+    margin-left: 200px;
+    border-radius: 2px;
+    }
+}

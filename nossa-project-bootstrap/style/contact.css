@@ -1,0 +1,85 @@
+#user-name{
+    width: 280px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid var(--dark-grey) ;
+}
+#user-surname{
+    width: 280px;
+    margin-left: -30px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid var(--dark-grey) ;
+}
+#user-email{
+    width: 280px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid var(--dark-grey) ;
+}
+#user-tel-no{
+    width: 280px;
+    margin-left: -30px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid var(--dark-grey) ;
+}
+#message-area{
+    border-radius: 8px;
+}
+#submit-type{
+    background: rgb(78, 77, 78);
+    border:1px solid rgb(78, 77, 78);
+    border-radius: 8px;
+    width: 590px;
+    height: 40px;
+    font:18px bold;
+    color: white;
+}
+iframe{
+    width: 928px;
+}
+.addresses-telnos{
+    font-size: 20px;
+}
+.tel-no{
+    text-decoration: none;
+    color: black;
+}
+.tel-no:hover{
+    text-decoration: underline;
+    color: black;
+}
+.showrooms{
+    background: rgb(209, 209, 209);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-contents p{
+    font-weight: 400;
+    font-size: 1em;
+}
+@media screen and (max-width:600px) {
+    #user-name{
+        width: 170px;
+    }
+    #user-surname{
+        width: 170px;
+        margin-left: -1px;
+    }
+    #user-email{
+        width: 170px;
+    }
+    #user-tel-no{
+        width: 170px;
+        margin-left: -1px;
+    }
+    #submit-type{
+        width: 95vw;
+    }
+    iframe{
+        width: 95vw;
+    }
+}

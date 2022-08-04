@@ -1,0 +1,106 @@
+*{
+    font-family: 'Playfair Display', serif;
+    --dark-grey:rgb(37, 37, 37);
+}
+.main-header{
+    background-color: var(--dark-grey);
+    font-size: 13px;
+}
+.bottom-header{
+    height: 20px;
+    background-color: var(--dark-grey);
+}
+.main-header-button{
+    background: transparent;
+    border: none;
+}
+.fa-magnifying-glass, .fa-globe , .fa-share-nodes{
+    color: white;
+}
+.dropdown-item-text{
+    font-size: 16px;
+}
+.main-logo{
+    width: 13em;
+}
+.navbar ul li a{
+    font-size: 1.50em;
+}
+.collection-menu{
+    font-size: 12px;
+}
+
+.footer input{
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.5);
+}
+.top-footer{
+    height: 20px;
+    background: var(--dark-grey);
+}
+.footer{
+    background: var(--dark-grey);
+    color: white;
+}
+.footer p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer img{
+    width: 320px;
+}
+.footer .fa-square-facebook, .footer .fa-twitter, .footer .fa-instagram, .footer .fa-youtube{
+    color: white;
+}
+.footer .fa-square-facebook:visited, .footer .fa-twitter:visited, .footer .fa-instagram:visited, .footer .fa-youtube:visited{
+    color: white;
+}
+
+.footer input[type=email]{
+    width: 300px;
+    height: 35px;
+    border-radius: 2px;
+}
+.footer input[type=submit]{
+    width: 70px;
+    text-align: center;
+    display: flex;
+    height: 35px;
+    margin-top: -35px;
+    margin-left: 300px;
+    border-radius: 2px;
+}
+.footer span a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+.footer span a:hover{
+    text-decoration: underline;
+}
+.bottom-footer{
+    background: rgba(0, 0, 0, 0.9);
+    color: rgba(255, 255, 255, 0.5);
+}
+@media screen and (max-width: 991px) {
+    *{
+        font-size: 10px;
+    }
+    .footer input[type=email]{
+    width: 200px;
+    height: 35px;
+    border-radius: 2px;
+    }
+    .footer input[type=submit]{
+    width: 50px;
+    text-align: center;
+    display: flex;
+    height: 35px;
+    margin-top: -35px;
+    margin-left: 200px;
+    border-radius: 2px;
+    }
+    .footer img{
+        width: 160px;
+    }
+}
