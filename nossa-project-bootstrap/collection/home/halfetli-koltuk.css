@@ -8,4 +8,8 @@
 .owl-top-content .item img{
     height: 650px;
 }
-    
+@media screen and (max-width:600px){
+    .first-img{
+        max-width:100vw ;
+    }
+}
